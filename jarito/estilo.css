@@ -1,0 +1,120 @@
+/* wrapper*/
+body{
+    background:#8B0000;
+    border: 20px solid:black;
+}
+
+#cabecera{
+    position: relative;
+    height: 100px;
+    margin: 20px;
+    border: 20px solid:#000000;
+    background-color: #B22222;
+
+}
+#cabecera{
+    position: absolute;
+    top:0 ;
+    bottom: 0;
+    right: 0;
+    left:30px ;
+}
+#logo{
+    opacity: 0.8;
+    background-image: none;
+    height: 100px;
+    position: relative;
+}
+#logo.hover{
+    position: absolute;
+    height: 50px;
+    top: ;
+    bottom: 50px;
+    right: ;
+    
+
+
+}
+#inicio{
+    height: 50px;
+    border: 10px solid:black;
+    margin: 40px;
+    background-color: #FFA500;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+
+     
+
+}
+#menu{
+    position: relative;
+    width: 355px;
+    height: 640px;
+    border: 10px solid:#808000;
+    margin: 35px;
+    background-color: #FF8C00;
+    text-align: center;
+    float: right;
+    
+
+}
+#menu.hover{
+    position: absolute;
+    margin-right: 50px;
+    float: right;
+    
+}
+.galeria{
+    float: left;
+    opacity: 0.8;
+    height: 600px;
+    width: 300px;
+    background-color: black;
+    text-align: 20px ;color:#ffffff;
+
+}
+
+.pregunta{
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 30px;
+    margin: 5px;
+    transition: font-size 1s ease-out;
+}
+.pregunta .hover{
+    font-size: 40px;
+    color: #FF8C00;
+
+}
+#partes{
+    height: 50px;
+    border: 10px solid:black;
+    margin: 10px;
+    font-size: 15px;
+    text-align: 10px;color: #000000;
+    background-color: #B22222;
+    text-align: center;
+}
+#face{
+    height: 43px;
+    border: 10px;
+    margin: 20px;
+    background-color:#FFFFFF;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+/* sabes hago esto por que solo me imagino que tu estas a mi lado y sin precio sin nada a cambio. te quiero donde estes?
+con quien estes? en que lugar estes? siempre estas en mi corazon y me siento segura y sastifecha en saber que te quierooo*/
+                                 /* gracias por hacerme la mujer mas feliz*/
+
+
+                                 /* NOTA: cuando no tienes ni idea de no conocer a la persona mejor solo 
+                                 quedate callado que los resultados no son malos */ 

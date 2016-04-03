@@ -1,6 +1,7 @@
-
 .logo {
-  width: 100%;
+  width: 50%;
+  display:block;
+  margin:auto;
 }
 
 
@@ -12,16 +13,16 @@
 	border-style: solid;	
 
   text-align: center;
-
+  
   text-shadow: 
-    0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 30px #fff,
-    0 0 40px #ff00de,
-    0 0 70px #ff00de,
-    0 0 80px #ff00de,
-    0 0 100px #ff00de,
-    0 0 150px #ff00de;
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 30px #fff,
+      0 0 40px #ff00de,
+      0 0 70px #ff00de,
+      0 0 80px #ff00de,
+      0 0 100px #ff00de,
+      0 0 150px #ff00de; 
 }
 
 
@@ -31,13 +32,19 @@
 
 
 .partes {
-  border: 10px solid black;
-  margin: 10px;
-  font-size: 15px;
-  color: #000000;
-  background-color: #B22222;
-  text-align:center;
-  font-weight: bold;
+	text-align:right; 
+        	
+}
+
+<style type="text/css">div
+.image {
+	max-width: 256px;
+	max-height: 256px;
+	background-image:	
+}
+.a{ text-align: center;
 }
 
 
+	 
+	

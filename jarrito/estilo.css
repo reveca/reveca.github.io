@@ -6,9 +6,9 @@
 
 
 .inicio {
-	background-size:50px;
+	background-size:20px;
 	background-repeat: no-repeat;
-	background-color:#cc9900;
+	background-color:darkmagenta;
 	background-position: center; 
 	border-style: solid;	
 
@@ -32,22 +32,38 @@
 
 
 .partes {
-	text-align:right; 
-        	
+	text-align:right;      	
 }
 
-<style type="text/css">div
+
 .image {
 	max-width: 256px;
 	max-height: 256px;
 	background-image:	
 }
-.tabla{
-    background-size: auto;
-    background-color: orange;
-    text-align: center,60%;
-    border: 10px;
+.face{
+    text-align: center;    
+}
+.historia {
+    background-color: fuchsia;
+    text-align: center;
+    font-size: 15px;
+    border: 5px; 
+}
+table{
+    border: 1px solid;
+    border-color: coral
+}
+table td{
+    border: 1px solid;
+    border-color:coral;
+    padding: 10px;
+}
+table tr hover{
+    background-color: darkgoldenrod;
     
 }
-	 
+    
+
+
 	

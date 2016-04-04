@@ -59,7 +59,7 @@ table td{
     border-color:coral;
     padding: 10px;
 }
-table tr hover{
+table tr:hover{
     background-color: darkgoldenrod;
     
 }

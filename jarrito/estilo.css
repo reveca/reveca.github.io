@@ -30,7 +30,6 @@
   text-align: center;
 }
 
-
 .partes {
 	text-align:right;      	
 }
@@ -51,6 +50,7 @@
     border: 5px; 
 }
 table{
+    text-align: center;
     border: 1px solid;
     border-color: coral
 }
@@ -60,10 +60,5 @@ table td{
     padding: 10px;
 }
 table tr:hover{
-    background-color: darkgoldenrod;
-    
+    background-color: darkgoldenrod;   
 }
-    
-
-
-	

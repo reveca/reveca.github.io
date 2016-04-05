@@ -54,6 +54,7 @@
     font-size: 15px;
     font-family: serif;
     border: 5px; 
+    float: left;
 }
 table{
     text-align: center;

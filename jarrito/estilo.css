@@ -6,9 +6,12 @@
 
 
 .inicio {
+	width: 80%;
+	margin: 0px auto;
+	border: 2px solid;
 	background-size:20px;
 	background-repeat: no-repeat;
-	background-color:darkmagenta;
+	background-color:#FFE1E1;
 	background-position: center; 
 	border-style: solid;	
 
@@ -61,4 +64,13 @@ table td{
 }
 table tr:hover{
     background-color: darkgoldenrod;   
+}
+.contenido{
+	width:80%;
+	margin: 0px auto;
+	background-color: #3C0000;
+	border: 0px solid;
+	text-align:center;
+	
+	
 }

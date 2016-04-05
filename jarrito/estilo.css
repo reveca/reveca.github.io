@@ -47,15 +47,22 @@
     text-align: center;    
 }
 .historia {
+	width:10%;
+	height:50%;
     background-color: fuchsia;
-    text-align: center;
+    text-align: left;
     font-size: 15px;
+    font-family: serif;
     border: 5px; 
 }
 table{
     text-align: center;
     border: 1px solid;
     border-color: coral
+}
+.caja{
+	width:30%;
+	
 }
 table td{
     border: 1px solid;
@@ -66,7 +73,8 @@ table tr:hover{
     background-color: darkgoldenrod;   
 }
 .contenido{
-	width:80%;
+	width:50%;
+	max-width:100%;
 	margin: 0px auto;
 	background-color: #3C0000;
 	border: 0px solid;

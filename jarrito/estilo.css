@@ -1,51 +1,25 @@
 .logo {
-  width: 50%;
-  display:block;
-  margin:auto;
+  width: 40%;
+  position:relative;
+  top: 0;
+  right: 0;
 }
-
-
-.inicio {
-	width: 80%;
-	margin: 0px auto;
-	border: 2px solid;
-	background-size:20px;
-	background-repeat: no-repeat;
-	background-color:#FFE1E1;
-	background-position: center; 
-	border-style: solid;	
-
-  text-align: center;
-  
-  text-shadow: 
-      0 0 10px #fff,
-      0 0 20px #fff,
-      0 0 30px #fff,
-      0 0 40px #ff00de,
-      0 0 70px #ff00de,
-      0 0 80px #ff00de,
-      0 0 100px #ff00de,
-      0 0 150px #ff00de; 
+.social{
+	width: 90%;
+	height: 56px;
+	background-color: #8B8B8A;	
 }
-
 
 .navigacion {
   text-align: center;
 }
-
-.partes {
-	text-align:right;      	
-}
-
 
 .image {
 	max-width: 256px;
 	max-height: 256px;
 	background-image:	
 }
-.face{
-    text-align: center;    
-}
+
 .historia {
 	width: 10%;
 	max-width: 100%;
@@ -55,38 +29,48 @@
     font-size: 15px;
     font-family: serif;
     border: 1px; 
-    float: left;
+    float: right;
     box-sizing:border-box;
     
 }
-
-
-
-table{
-	color:white;
-    text-align: center;
-    border: 1px solid;
-    border-color: coral
+.inicio{
+	position: relative;
+	top: 30px;
+	right: 300px;
+	text-align: right;
+	font-size: 50px;
+	font-family: 'Cinzel', serif;	
+}
+.hora{  
+	position: relative;
+	top: 30px;
+	right: 300px;
+	text-align: right;
+	font-size: 35px;
+	font-family: 'Poiret One', cursive;
 }
 .caja{
-	width:30%;
-	
-	
+	position: relative;
+	width: 20px;
+	height: 20px;
+	top: 30px;
+	left: 300px;			
 }
+table{
+	color: #3B3176;
+    text-align: center;
+    border: 1px solid;
+    border-color: blue;
+    font-size: 30px;
+    font-family: 'Slabo 27px', serif;
+}
+
 table td{
     border: 1px solid;
-    border-color:coral;
-    padding: 10px;
+    border-color: #2B4970;
+    padding: 30px;
 }
 table tr:hover{
     background-color: darkgoldenrod;   
 }
-.contenido{
-	width: 60%;
-	max-width: 100%;
-	margin: 0px auto;
-	background-color: #3C0000;
-	border: 0px solid;
-	text-align: center;
-		
-}
+

@@ -1,15 +1,20 @@
 .logo {
   width: 40%;
-  position:relative;
-  top: 0;
-  right: 0;
+  margin: 0 auto;
+  display: block; 
+ text-align: center; 
+}
+.borde{
+	border-color: darkgoldenrod;
+	border: 8px solid;
 }
 .social{
-	width: 90%;
-	height: 56px;
-	background-color: #8B8B8A;	
+	width: 1973px;
+	height: 80px;
+	background-color: #BB6800; 
+	border-color: #B36709;
+	border: 2px;		
 }
-
 .navigacion {
   text-align: center;
 }
@@ -49,28 +54,13 @@
 	font-size: 35px;
 	font-family: 'Poiret One', cursive;
 }
-.caja{
-	position: relative;
-	width: 20px;
-	height: 20px;
-	float: right;
-	right: 200px;
-				
-}
 table{
 	color: #3B3176;
     text-align: center;
-    border: 1px solid;
-    border-color: blue;
     font-size: 30px;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-table td{
-    border: 1px solid;
-    border-color: #2B4970;
-    padding: 30px;
-}
 table tr:hover{
     background-color: darkgoldenrod;   
 }
@@ -80,15 +70,14 @@ table tr:hover{
 	right: 300px;
 	text-align: right;
 	font-size: 35px;
-	font-family: 'Poiret One', cursive;
-	
+	font-family: 'Poiret One', cursive;	
+}
+ .down {
+	 width: 1973px;
+	 height:500px;
+	 background: #BB6800;
+        display:block; 
+        text-align:center;
 }
 
-.fotos .img {
-	position: relative;
-	top: 300px;
-	right: 100px;
-	
-
-}
 

@@ -4,11 +4,15 @@
   display: block; 
  text-align: center; 
 }
-.borde{
+.borde {
 	border-color: darkgoldenrod;
 	border: 8px solid;
 }
+<<<<<<< HEAD
 .social{
+=======
+.social {
+>>>>>>> origin/master
 	width: 100%;
 	height: 80px;
 	background-color: #BB6800; 
@@ -18,7 +22,11 @@
 .navigacion {
   text-align: center;
 }
-
+.burger, .pan {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
 .image {
 	max-width: 256px;
 	max-height: 256px;
@@ -74,7 +82,10 @@ table tr:hover{
 }
  .down {
 	 width: 100%;
+<<<<<<< HEAD
 	 height:400px;
+=======
+>>>>>>> origin/master
 	 background: #BB6800;
         display:block; 
       

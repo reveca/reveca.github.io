@@ -15,22 +15,34 @@ body{
 	height: 50px;
 	border: 1px;
 	border-bottom: 1px;
-	background: #565659;	
+	background: #565659;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	margin: auto;	
 }
 .cabeza a{
-        width: 40em;
-	height: 40em;
+        width: 60px;
+	height: 60px;
 	color:  white;
 	display: aline-flex;
 	justify-content: center;
 	flex: wrap;
+	margin: 0 auto;
+	text-align: right;
+	list: none;
+	
+	
+	
 }
 .logo{ 
 	width: 300px;
 	height: 300px;
 	margin: 0 auto;
 	display: block;
-	text-align: center;
+	text-align: left;
 		
 }
 .down {
@@ -45,19 +57,51 @@ body{
 .down a	{
 	width: 100px;
 	height: 100px;
-	margin: 0;
+	margin: 0 auto;
 	color: white;
 	text-align: center;
+}
+a .icon-at{
+		width: 20px;
+		height: 20px;
+		margin: 0 auto;
+		color: white;
+		list: none;
 	}
 	
-.p{
-	text-align: center;
-	font-size: 28px;
+p{
+	width: 25%;
+	height: 15%;
+	font-size: 15px;
 	font-family: 'Cinzel', serif;
 	color: white;
+	text-align: center;
+	border: 1px solid white;
+	
+	
+	
 	
 }
-	
+
 .foto{
+	width: 70%;
+	height: 50%;
+	
+	
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	
+}
+
+.baner{
+	width: 90%;
+	height: 70%;
+	
+	margin: 0 auto;
+	display: block;
 	text-align: center;
 }
+
+	
+

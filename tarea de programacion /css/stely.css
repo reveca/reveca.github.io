@@ -11,74 +11,88 @@ body{
 }
 
 .cabeza{
-	width:50%;
-	height: 50px;
-	border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border: 2px solid #E02D92;
-	background: white;
+	width:100%;
+	height: 35px;
+	border: 1px solid;
+	opacity: 0.5;
+	background: #766B71;
 	
-	position: fixed;
-	top: 0;
-	left: 30%;
+	top: 0px;
 	z-index: 100;
-	margin: 50px 100px 50px;	
+		
 }
 .cabeza a{
-	font-size: 11px;
-	color:  #E02D92;
-	display: aline-flex;
-	justify-content: center;
-	flex: wrap;
+	font-size: 15px;
+	top: 0px;
+	right: 50px;
+	color:  lime;
+	float: right;
 	margin: 10px;
 	list: none;
-	text-align: center;
 	
-	
-	
+		
 }
-.logo{ 
-	width: 300px;
-	height: 300px;
-	margin: 30px ;
+.cabeza p{
+	float: left;
+	text-align: left;
+	color: orange;
+	top: 0;
+}
+
+.linea2{
+	width:100%;
 	
-		
-}	
-p{
-	
-	font-size: 20px;
-	font-family: 'Indie Flower', cursive;
-	color: white;
-	margin : 50px 50px 50px 50px;
-	text-align: center;
-		
+	top: 0;
+	border: 2px solid;
+	border-color: #88E75B;
+	background-color: #6A515F;
 	
 }
 
+h4{
+	
+	font-size: 15px;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	margin : 0;
+	text-align: center;
+		
+	
+}
+h3{
+	font-size: 27px;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+	margin : 0;
+	text-align: center;	
+}
+
 .foto{
-	width: 70%;
-	height: 50%;
+	width: 55%;
+	height: 20%;
 	
 	
 	margin: 0 auto;
 	display: block;
-	text-align: center;
+	
 	
 }
 
 .baner{
-	width: 90%;
+	width: 100%;
 	height: 70%;
 	
-	margin: 50px 50px 50px 50px;
+	margin: 0;
+	top: 0;
 	display: block;
-	text-align: center;
+	
 }
 
-.down a{
+.down a {
 	width: 5%;
 	height: 30px;
+	display: block;
+	margin: auto;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
@@ -88,9 +102,53 @@ p{
 	margin: 10px;
 	color: white;
 	
+}
+.linea{
+	width:100%;
+	margin: 0;
+	display: block;
+	vertical-align: top;
 	
 	
+	border: 2px solid;
+	border-color: #6A515F;
+	background-color: #6A515F;
+}
+.gale{
+	width: 50%;
+	height: 500px;
+	margin: 5%;
+	
+	border: 1px solid;
+	border-color: #88E75B;
+	background-color: #6A515F;
+}
+.izquierdo{ 
+	width: 40%;
+	height:400px;
+	float: right;
+	margin: 5px;
+	top: 0;
+	left: 0;
+	
+	border: 1px solid;
+	border-color: #88E75B;
+	background: #6A515F;
 	
 }
-
+img{
+	width: 60%;
+	height:300px;
+	
+	display: block;
+	margin: auto;
+	
+}
+p{
+	top: 0;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	color: white;
+}
+	
 

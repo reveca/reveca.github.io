@@ -1,43 +1,16 @@
 @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
+
 body{
 	background: #181717;
 	font-family: 'Jeju Gothic', sans-serif;
 		
 }
 
-.cabeza{
-	width:100%;
-	height: 35px;
-	border: 1px solid;
-	opacity: 0.5;
-	background: #766B71;
-	
-	top: 0px;
-	z-index: 100;
-		
-}
-.cabeza a{
-	font-size: 15px;
-	top: 0px;
-	right: 50px;
-	color:  lime;
-	float: right;
-	margin: 10px;
-	list: none;
-	
-		
-}
-.cabeza p{
-	float: left;
-	text-align: left;
-	color: orange;
-	top: 0;
-}
 
 .linea2{
 	width:100%;
@@ -117,25 +90,23 @@ h3{
 .gale{
 	width: 50%;
 	height: 500px;
-	margin: 5%;
+	display: block;
+	margin:  100px auto;
 	
-	border: 1px solid;
-	border-color: #88E75B;
-	background-color: #6A515F;
+	
 }
 .izquierdo{ 
-	width: 40%;
-	height:400px;
-	float: right;
-	margin: 5px;
-	top: 0;
-	left: 0;
+	width: 95%;
+	height: 60px;
+	display: block;
+	margin: auto;
 	
 	border: 1px solid;
 	border-color: #88E75B;
 	background: #6A515F;
 	
 }
+
 img{
 	width: 60%;
 	height:300px;
@@ -150,5 +121,38 @@ p{
 	font-family: 'Shadows Into Light', cursive;
 	color: white;
 }
+header{
+	margin-top:10px;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	position: relative;	
+}
+#nav{
+	top: 20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 20px;
+	max-width: 1000px;
+	width: 90%;
+	
+}
+.nav ul{
+	list-style: none;
+}
+nav >ul{
+	display: table;
+	width: 100%;
+	background: #000;
+	position: relative;
+}
+nav > ul li{
+	display: table-cell;
+}
+nav > ul > li > ul{
+	display: none;
+}
+
 	
 

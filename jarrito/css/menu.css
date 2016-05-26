@@ -1,8 +1,8 @@
 .logo {
-	width: 70%;
-        margin: 0 auto;
-        display: block; 
-        text-align: center; 
+	width: 40%;
+        margin: ;
+	top: 0;
+	
 }
 .navigacion {
   text-align: center;
@@ -34,7 +34,7 @@
 }
 h1{
 	text-align: center;
-	font-size: 45px;
+	font-size: 23pxpx;
 	font-family: 'Cinzel', serif;	
 }
 .hora{  
@@ -42,13 +42,13 @@ h1{
 	position: relative;
 	top: 30px;
 	text-align: center;
-	font-size: 35px;
+	font-size: 20px;
 	font-family: 'Poiret One', cursive;
 }
 table{
 	color: #3B3176;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -60,7 +60,7 @@ table tr:hover{
 	position: relative;
 	top: 30px;
 	text-align: right;
-	font-size: 35px;
+	font-size: 20px;
 	font-family: 'Poiret One', cursive;	
 }
  .down {
@@ -81,6 +81,7 @@ table tr:hover{
 .down .img{
 	width: 180px;
 	height: 180px;
+	margin: auto 8px;
 	border radius: 50%;
 	border: 7px solid #fff;
 

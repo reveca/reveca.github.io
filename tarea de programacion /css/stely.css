@@ -121,38 +121,41 @@ p{
 	font-family: 'Shadows Into Light', cursive;
 	color: white;
 }
+
+ul , ol{
+list-style: none;
+}
 header{
-	margin-top:10px;
-	width: 100%;
-	height: 150px;
-	overflow: hidden;
-	position: relative;	
+    width: 100%;
+    
 }
-#nav{
-	top: 20px;
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: 20px;
-	max-width: 1000px;
-	width: 90%;
-	
+nav {
+    width: 1000px;
+    margin:  20px auto ;
+    overflow: hidden;
+    border: 4px ;
+    border-bottom:  1px solid #555555;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8b8b8b+0,6a6a6a+50,5e5e5e+51,717171+100 */
+background: #8b8b8b; /* Old browsers */
+background: -moz-linear-gradient(top,  #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 51%, #717171 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 51%,#717171 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 51%,#717171 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b8b8b', endColorstr='#717171',GradientType=0 ); /* IE6-9 */
 }
-.nav ul{
-	list-style: none;
+menu{
+    width: 85%;
+    display: table;
+    table-layout: fixed;
+    float: left;
 }
-nav >ul{
-	display: table;
-	width: 100%;
-	background: #000;
-	position: relative;
+menu li{
+    display: table-cell;
+    overflow: hidden;
+    width: 100%;
+    border-right: 1px solid #5c5c5c ;
 }
-nav > ul li{
-	display: table-cell;
-}
-nav > ul > li > ul{
-	display: none;
-}
+
+
 
 	
 

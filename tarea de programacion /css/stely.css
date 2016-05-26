@@ -125,10 +125,6 @@ p{
 ul , ol{
 list-style: none;
 }
-header{
-    width: 100%;
-    
-}
 nav {
     width: 1000px;
     margin:  20px auto ;
@@ -142,17 +138,24 @@ background: -webkit-linear-gradient(top,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 51%,#71
 background: linear-gradient(to bottom,  #8b8b8b 0%,#6a6a6a 50%,#5e5e5e 51%,#717171 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b8b8b', endColorstr='#717171',GradientType=0 ); /* IE6-9 */
 }
-menu{
+.menu {
     width: 85%;
     display: table;
     table-layout: fixed;
     float: left;
+    
 }
-menu li{
-    display: table-cell;
+#menu .li {
+	
+    text-align: right;
     overflow: hidden;
     width: 100%;
     border-right: 1px solid #5c5c5c ;
+    border-left: 1px solid rgb( 255,255,255,.2);
+    
+}
+.menu li:first-child{
+	
 }
 
 

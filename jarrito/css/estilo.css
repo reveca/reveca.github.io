@@ -11,8 +11,9 @@ body{
 
 
 header{
-	width: 100%;
+	width: 60%;
 	height: 50px;
+	right: 0;
 	background: #BB6800;
 	color: #fff;
 	
@@ -24,8 +25,10 @@ header{
 	
 }
 .contenido{
-	width: 98%;
-	margin: auto;
+	width: 70%;
+	position: right;
+	float: right;
+	
 }
 
 h1{ 
@@ -53,26 +56,7 @@ section{
 	width: 100%;
 	margin-bottom: 25px;
 }
-/* banner*/
-.banner{
-	margin: 70px;
-	
-	
-	
-}
 
-#banner img{
-	width: 100%;
-	height: 100%;
-}
-.banner .contenedor {
-	
-	top: 50%;
-	left: 50%;
-	transform: translatex(-50%) translatey(-50%);
-	color: white;
-	
-}
 #medio {
 	display: aline-flex;
 	justify-content: center;
@@ -91,6 +75,14 @@ section{
 	color: blue;
 	text-align: center;
 	font-family: 'Cinzel', serif;
+}
+
+.footer{
+	width: 50%;
+	height: 500px;
+	margin: 50px 20px;
+	padding: 60px;
+	
 }
 
 

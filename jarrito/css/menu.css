@@ -1,6 +1,6 @@
+/*logp tipo el jarrito*/
 .logo {
 	width: 40%;
-        margin: ;
 	top: 0;
 	
 }
@@ -32,60 +32,106 @@
     box-sizing:border-box;
     
 }
-h1{
-	text-align: center;
-	font-size: 23pxpx;
-	font-family: 'Cinzel', serif;	
+@media (min-width: 360px){
+	.hora{
+		font-size: 10px;
+		 color: #EC400A;	
+	}
+	.direccion{
+		font-size: 20px;
+		 color: #EC400A;	
+	}
+	
+	
+}
+@media (min-width: 600px){
+	.hora{
+		font-size: 20px;
+		 color: #FF6400 	
+	}
+	.direccion{
+		font-size: 20px;
+		 color: #FF6400; 	
+	}
+	
+	
+}
+@media (min-width: 1200px){
+	.hora{
+		font-size: 25px;
+		 color: #AA5939; 	
+	}
+	.direccion{
+		font-size: 25px;
+		 color: #AA5939; 	
+	}
+	
+	
 }
 .hora{  
 	max-width: 900px;
 	position: relative;
 	top: 30px;
 	text-align: center;
-	font-size: 20px;
-	font-family: 'Poiret One', cursive;
-}
-table{
-	color: #3B3176;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-table tr:hover{
-    background-color: darkgoldenrod;   
+	font-size: 25px;
+	font-family: 'Merriweather', serif;
+        margin:20px;
+        padding: 30px;
 }
 .direccion{
 	max-width: 900px;
 	position: relative;
 	top: 30px;
-	text-align: right;
-	font-size: 20px;
-	font-family: 'Poiret One', cursive;	
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Merriweather', serif;	
 }
+/*menu*/
+table{
+	color: #3B3176;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 20px;
+    padding: 40px;
+    float: right;
+    top: 0;
+}
+
+table tr:hover{
+    background-color: darkgoldenrod;   
+}
+
+/*este es donde esta las imagenes y un poco del contenido de la direccion*/
  .down {
 	 width: 100%;
 	 height: 800px;
-	 background: #BB6800; 
-	 color: white;
 	 text-align: center;
 	 font-size: 25px;
-	 font-family: 'Poiret One', cursive;
+	 font-family: 'Merriweather', serif;
+	 margin: 20px;
+	 padding: 40px;
 	    
-}
-#down .contenidor{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-.down .img{
+/*fotos de abajo son tres*/
+.down img{
 	width: 180px;
 	height: 180px;
-	margin: auto 8px;
-	border radius: 50%;
-	border: 7px solid #fff;
+	margin: 50px;
+	padding: 10px;
+	border-radius: 50%;
+	border-color: 7px solid #fff;
+	decoration: none;
+ background: #BB6800; 
+ color: white;
 
 	
 	
+}
+.down img:hover{
+	background-color: rgba(0,0,0,0.6);
 }
 

@@ -1,89 +1,97 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 body{
-	font-family: 'open sans', sans-serif;
+	background: #E4D6D6;
 }
 
-
+/*esto es la drecoracion de arriba*/
 header{
-	width: 60%;
-	height: 50px;
-	right: 0;
-	background: #BB6800;
-	color: #fff;
+	width: 95%;
+	height: 30px;
+	background: #550000;
 	
-	position: fixed;
+	
 	top: 0;
 	left: 0;
-	z-index: 100;
 	margin: auto;
 	
 }
-.contenido{
-	width: 70%;
-	position: right;
-	float: right;
-	
-}
+.flor{
+	width: 20%;
+	height: 20%;
 
+	float: right;
+}
+/*texto de bienvenida h1*/
 h1{ 
+	color: #333;
+	font-family: 'Poiret One', cursive;
 	text-align: center;
-	width: 45%;
-	float: left;
-	font-family: 'Cinzel', serif;	
+	font-size: 60px;
+		
 }
-header .contenido{
-	display: table;
-}
-
-header label {
-	float: right;
-	font-size: 30px;
-	margin: 6px 0;
-	cursor: pointer;
-}
-
-#menu-bar:checked ~ .menu{
-	transform: translateX(0%);
-	
-}
-section{
+/*redes sociales*/
+.social{
 	width: 100%;
-	margin-bottom: 25px;
-}
-
-#medio {
-	display: aline-flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-#medio article{
-	margin: 15px;
-}
-#medio img{
-	width: 70%;
-	max-width: 70%;
 	text-align: center;
-}
-#medio h4 {
 	font-size: 28px;
-	color: blue;
-	text-align: center;
-	font-family: 'Cinzel', serif;
-}
+	margin: 20;
+	padding: 80px;
+	
 
-.footer{
-	width: 50%;
-	height: 500px;
-	margin: 50px 20px;
-	padding: 60px;
+}
+.social a{
+	color:#333;
+	text-decoration: none;
 	
 }
+p{
+	color:#333;
+	font-size: 20px;
+	font-family: 'Coming Soon', cursive;
+}
+
+/*aqui comienza las @media*/
+
+@media (min-width: 360px){
+	.hora{
+		font-size: 10px;
+		 color: #EC400A;	
+	}
+	.direccion{
+		font-size: 20px;
+		 color: #EC400A;	
+	}
+	table tr, td{
+	        text-align: center;
+	        font-size: 25px;
+		
+		
+	}
+	
+	
+	
+}
+@media (min-width: 600px){
+	.hora{
+		font-size: 20px;
+		 color: #FF6400 	
+	}
+	.direccion{
+		font-size: 20px;
+		 color: #FF6400; 	
+	}
+	table tr, td{
+	        text-align: center;
+	        font-size: 30px;
+			
+	}	
+	
+}
+
 
 
 

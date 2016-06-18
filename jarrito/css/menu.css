@@ -1,137 +1,149 @@
 /*logp tipo el jarrito*/
 .logo {
-	width: 40%;
-	top: 0;
-	
-}
-.navigacion {
-  text-align: center;
-}
-.burger, .pan {
-  display: block;
-  max-width: 100%;
-  margin: auto;
-}
-.image {
-	max-width: 256px;
-	max-height: 256px;
-	background-image:	
+	width: 60%;
+	display: block;
+	margin: auto;
+	padding: 25px;	
 }
 
+/* esto es de la hora y la direcciòn*/
 
-.historia {
-	width: 10%;
-	max-width: 100%;
-	height: 50%;
-    background-color: fuchsia;
-    text-align: center;
-    font-size: 15px;
-    font-family: serif;
-    border: 1px; 
-    float: right;
-    box-sizing:border-box;
-    
-}
-@media (min-width: 360px){
-	.hora{
-		font-size: 10px;
-		 color: #EC400A;	
-	}
-	.direccion{
-		font-size: 20px;
-		 color: #EC400A;	
-	}
-	
-	
-}
-@media (min-width: 600px){
-	.hora{
-		font-size: 20px;
-		 color: #FF6400 	
-	}
-	.direccion{
-		font-size: 20px;
-		 color: #FF6400; 	
-	}
-	
-	
-}
-@media (min-width: 1200px){
-	.hora{
-		font-size: 25px;
-		 color: #AA5939; 	
-	}
-	.direccion{
-		font-size: 25px;
-		 color: #AA5939; 	
-	}
-	
-	
-}
+
 .hora{  
 	max-width: 900px;
-	position: relative;
-	top: 30px;
+	top: 0;
 	text-align: center;
-	font-size: 25px;
-	font-family: 'Merriweather', serif;
-        margin:20px;
-        padding: 30px;
+	float: left;
+	font-size: 20px;
+	font-family: 'Poiret One', cursive;
+        margin: auto;
+        padding: 40px;
 }
 .direccion{
 	max-width: 900px;
-	position: relative;
-	top: 30px;
+	top: 0;
 	text-align: center;
-	font-size: 30px;
-	font-family: 'Merriweather', serif;	
+        float: right;	
+        font-size: 20px;
+  	font-family: 'Poiret One', cursive;
+        margin: auto;
+        padding: 40px;
+		
 }
-/*menu*/
+/*menu de comida*/
+
 table{
 	color: #3B3176;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    margin: 20px;
-    padding: 40px;
-    float: right;
-    top: 0;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Vidaloka', serif;
+        margin: 70px;
+        padding: 30px;
+        float: center;
+        top: 0;
+	
+	
+	
 }
 
 table tr:hover{
     background-color: darkgoldenrod;   
 }
 
+
 /*este es donde esta las imagenes y un poco del contenido de la direccion*/
- .down {
-	 width: 100%;
-	 height: 800px;
-	 text-align: center;
-	 font-size: 25px;
-	 font-family: 'Merriweather', serif;
-	 margin: 20px;
-	 padding: 40px;
-	    
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.fotos{
+	width: 100%;
+	height: 100%;
+	background: white;
+	
 }
-/*fotos de abajo son tres*/
-.down img{
-	width: 180px;
-	height: 180px;
-	margin: 50px;
-	padding: 10px;
-	border-radius: 50%;
-	border-color: 7px solid #fff;
-	decoration: none;
- background: #BB6800; 
- color: white;
+.fotos img{
+	
+	width: 30%;
+	height: 30%;
+	border: 3px solid #370000; 
+	 
+	 margin: 10px;
+	 padding: 9px;
+	 float:left;
+	 opacity: 0.8;
+	     
+	     filter: alpha(opacity=50);
+	     position: relative;
+	     
+	     
+	 
+ 
+	 
+}
+.fotos img:hover{
+        opacity: 1.0;
+           filter: alpha(opacity=100);
+}
+
+
+
+
+/* el menu de los links de la primera pagina de index*/
+.menu {
+	width: 100%;
+	font-size: 30px;
+	
+	margin: 200;
+	padding: 20px;
+	flex-wrap: wrap;
+
+	justify-content: center;
+	text-decoration: none;
+	font-family: 'Amatica SC', cursive;
 
 	
 	
+			
 }
-.down img:hover{
-	background-color: rgba(0,0,0,0.6);
+.menu a{
+	color: #333;
+	
+	
+	
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	
 }
+
+/* este es el menu pero de la segunda pagina */
+.menu2{
+	
+		
+}
+.menu2  a{
+	
+	font-size: 25px;
+	
+	font-family: 'Amatica SC', cursive;
+	margin: 20px;
+	color: #333;
+	
+	text-decoration: none;
+	list-style: none;
+	
+	top: 0;
+	float: right;
+	
+	justify-content: center;
+	
+	
+}
+
+
+
+
+
+
+
 

@@ -48,6 +48,8 @@ h3 {
   margin: auto;
   padding: 0px;
   display: block;
+  
+  outline-style: dashed;
   vertical-align: right;
   border: 1px solid;
   border-color: black;
@@ -57,19 +59,21 @@ h3 {
 .linea2 {
   width: 100%;
   border: 3px solid;
+  outline-style: dashed;
   border-color: black;
   background-color: black;
 }
 .linea3{
 	
-        width: 85%;
-	margin: 1500px auto;
-	clear: both;
-       
+        width: 80%;
+	float: auto;
+	clear: both; 
+	outline-style: dashed;
         display: block;
         vertical-align: center;
         border: 1px solid;
         border-color: black;
+	
         
 	
 }
@@ -82,6 +86,15 @@ h2{
 	margin: 10px;		
 }
 /* iconos de las redes sociales*/
+.izquierdo{
+	width: 80%;
+	height: 80%;
+	background-color: black;
+	display: block;
+	outline-style: dashed;
+	border: 1px solid white;
+	margin: auto;
+}
 
 .izquierdo{
         display: inline;
@@ -89,28 +102,29 @@ h2{
 	list:none;
 	list-style:none;
 	text-decoration: none;
-	margin: 350px;
+	margin: 350px auto;
 	padding: 150px;
 	
         display: inline;
-        overflow: hidden;
         float: left;
         text-align: left;
-	margin: 150px;
+	margin: 150px auto;
 	 
 		
 }
 .izquierdo  a {
-	color: #333;
+	color: white;
 	font-size: 30px;
 	text-align: center;
 	text-decoration: none;
 	
 	
 	
-	margin: 2px;
-	padding: 0;
-	float: none;
+	margin: 5px auto;
+	display: block;
+	
+	padding: 5px;
+	float: left;
 
 		
 }
@@ -140,14 +154,9 @@ h2{
 	list-style: none;
 	float: left;
 	border: 3px solid #333;
-	top: 50px;	 
+	top: 50px;
+		 
 }
-
-	
-	
-	
-	
-
 /*  gale2*/
 div img{
 	width: 20%;
@@ -159,14 +168,17 @@ div img{
 	list-style: none;
 	float: left;
 	border: 3px solid #333;
-	top: 0px;	 
+	top: 0px;
+	 
+	
+		 
 }
 
 
 h1{
 	width: 100px;
 	font-size: 45px;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Amatic SC', cursive;
 	color: black;
 	text-align: left;
 	margin: 50px ;
@@ -175,7 +187,7 @@ h1{
 p {
   top: 0;
   text-align: center;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Amatic SC', cursive;
   color: blck;
 }
 /* menu de arriba*/
@@ -204,9 +216,9 @@ nav {
       border-bottom-left-radius: 1em;
 }
 .menu li a{
-	color: #333;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
+	color: black;
+	font-family: 'Amatic SC', cursive;
+	font-size: 18px;
 	text-align: center;
 	text-decoration: none;
 	padding: 7px 10px;
@@ -214,7 +226,7 @@ nav {
 	
 }
 .menu li:hover{
-	background: rgba(0,0,0,.2);
+	background: rgba(0,0,0,.8);
 	
 }
 
@@ -241,7 +253,7 @@ h2 {
 	margin: 0;
 	font-size: 30px;
 	margin-bottom: 20px;
-	font-family: monospace;
+	font-family: 'Amatic SC', cursive;
 }
 input, textarea{
 	width: 100%;
@@ -257,33 +269,15 @@ textarea{
 	max-height: 200px;
 	max-width: 100%;
 }
-/*sobre mi */
-.me{
-	width: 78px;
-	height: 120px;
-	margin: 20px;
-	border: 2px solid;
-	border-color: black;
-	font-family: 'Lato', sans-serif;
-}
-.nom {
-	font-size: 30px;
-	margin: 20px;
-	color: black;
-	text-align: left;
+.fecha{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-family: 'Amatic SC', cursive;
+	
 	
 }
-.soy{
-	
-	font-size: 20px;
-	border-color: white;
-	font-family: 'Lato', sans-serif;
-	text-align: left;
-	
-	margin: 20px;
-	border: 2px solid black;
-	
-}
+
 
 
 

@@ -63,19 +63,26 @@ h3 {
         
 	
 }
-.foto {
-  width: auto;
-  height: 25%;
-  margin: auto 50px;
-  padding: 20px 40px 20px;
-  display: block;
-  
+.linea3{
+	
+        width: 80%;
+	float: auto;
+	clear: both; 
+	outline-style: dashed;
+        display: block;
+        vertical-align: center;
+        border: 1px solid;
+        border-color: black;
+	
+        
+	
 }
+
 h2{
 	
 	color: black;
-	font-family: 'Indie Flower', cursive;
-	font-size: 30px;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
         text-align: center;
 	margin: 10px;		
 }
@@ -125,14 +132,20 @@ h2{
 .izquierdo a:hover{
 	background: rgba(0,0,0,.2);
 }
-/* barra de servicios*/
+/* imagen principal*/
 .foto img {
   width: 70%;
-  height: 600px;
   display: block;
-  margin: auto;
-  
+  margin: auto ;
+  padding: 20px 40px 20px;
   border: 5px solid #333;
+  
+  opacity: 0.8;
+  
+  
+  
+  
+  
 }
 
 
@@ -184,20 +197,10 @@ p {
   top: 0;
   text-align: center;
   color: black;
-  font-size: 30px;
-  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  font-family: 'Poiret One', cursive;
  
 }
-/* menu de arriba*/
-nav {
-  width: 60%;
-  margin: 30px auto;
-  overflow: hidden;
-  border: 5px;
- 
-  
-}
-
 
 .fecha{
 	text-align: center;

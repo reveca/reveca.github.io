@@ -194,8 +194,12 @@ h1{
 	
 }
 p {
+	width: 50%;
+	text-align: center;
+	
   top: 0;
-  text-align: center;
+  display: block;
+  margin: auto;
   color: black;
   font-size: 25px;
   font-family: 'Poiret One', cursive;

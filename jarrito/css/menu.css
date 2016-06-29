@@ -33,10 +33,11 @@
 /*menu de comida*/
 
 table{
+	width: 100%;
 	color: #3B3176;
         text-align: center;
         font-size: 40px;
-        font-family: 'Vidaloka', serif;
+        font-family: 'Poiret One', cursive;
         margin: 70px;
         padding: 30px;
         float: center;
@@ -44,10 +45,6 @@ table{
 	
 	
 	
-}
-
-table tr:hover{
-    background-color: darkgoldenrod;   
 }
 
 
@@ -60,8 +57,8 @@ table tr:hover{
 }
 .fotos img{
 	
-	width: 30%;
-	height: 30%;
+	width: 40%;
+	height: 40%;
 	border: 3px solid #370000; 
 	 
 	 margin: 10px;

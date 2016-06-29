@@ -56,7 +56,7 @@ p{
 
 /*aqui comienza las @media*/
 
-@media (min-width: 360px){
+@media all and (min-width: 360px){
 	.hora{
 		font-size: 10px;
 		 color: #EC400A;	
@@ -68,6 +68,17 @@ p{
 	table tr, td{
 	        text-align: center;
 	        font-size: 25px;
+		display: block;
+		width: 100%;
+		margin: auto;
+		
+		
+	} 
+	.fotos img {
+		width: 100%;
+		float-left: none;
+		display: block;
+		margin:auto;
 		
 		
 	}
@@ -75,19 +86,38 @@ p{
 	
 	
 }
-@media (min-width: 600px){
+@media all and (min-width: 768px){
 	.hora{
+		display:block;
+		margin: auto;
+		float: left;
+		
 		font-size: 20px;
 		 color: #FF6400 	
 	}
 	.direccion{
+		display: block;
+		margin: auto;
 		font-size: 20px;
 		 color: #FF6400; 	
 	}
-	table tr, td{
+	table{
+		display: flex;
+		margin: auto;
 	        text-align: center;
-	        font-size: 30px;
+	        font-size: 40px;
 			
+	}
+	.fotos img{
+		display: block;
+		
+	}
+	.social{
+		width: 500px;
+		display: block;
+		margin: auto;
+		
+		
 	}	
 	
 }

@@ -129,16 +129,14 @@ h2{
 
 		
 }
-.izquierdo a:hover{
-	background: rgba(0,0,0,.2);
-}
+
 /* imagen principal*/
 .foto img {
   width: 70%;
   display: block;
   margin: auto ;
-  padding: 20px 40px 20px;
-  border: 5px solid #333;
+  padding: 10px 20px 10px;
+  border: 3px solid #333;
   
   opacity: 0.8;
   
@@ -153,36 +151,22 @@ h2{
 
 
 .gale img{
-	width: 25%;
-	height: 25%;
-	display: flex;
-	margin: 20px;
+	width: 500px;
+	height: 400px;
+	alingn-items:center;
+	justify-content: center;
+	alingn-content: center;
+
+	 
+	 
+	margin: 30px;
 	padding: 10px;
-	
 	list-style: none;
-	float: left;
-	
 	border: 3px solid #333;
 	top: 50px;
 		 
 }
 /*  gale2*/
-div img{
-	width: 20%;
-	height: 40%;
-	display: flex;
-	margin: 20px;
-	
-	
-	list-style: none;
-	float: left;
-	border: 3px solid #333;
-	top: 0px;
-	 
-	
-		 
-}
-
 
 h1{
 	width: 100px;
@@ -214,38 +198,53 @@ p {
 	
 	
 }
-.adobe{
-	width: 280px;
-	height: 150px;
+.adobe img{
+	width: 90px;
+	height: 70px;
+	margin: 20px;
+	padding: 10px;
 	
 	
 }
-.pantalla{
-	width: 450px;
+.pantallas img{
+	width: 300px;
 	height: 200px;
-	margin: auto 20px;
 	
-	float: right;
+	border: 2px solid #333;
+	margin: 20px;
+	padding: 10px;
+	alingn-items: flex-end;
 	
 }
+
 /*los media para responsive */
 @media(max-width:480px){
-	form{
-		width: 100%;
+	.gale img{
+		width: 200px;
+		height: 100px;
+		alingn-items:center;
+		justify-content: center;
+		alingn-content: center;
+
+	 
+	 
+		margin: 20px;
+		padding: 5px;
+		list-style: none;
+		border: 2px solid #333;
+		top: 50px;
+		 
 	}
+	
+	
 	.izquierdo  a{
-		font-size: 20px;
+		font-size: 10px;
 		margin: auto;
 		display: block;	
 	}
 	.fecha{
 		text-align: center;
-		float: left;	
-	}
-	.menu li a{
-		width: 100%;
-		float: left;
-		text-align: center;
+	
 	}
 	.izquierdo{
 		width: 40%;
@@ -256,6 +255,40 @@ p {
 		width: 70%;
 		height: 50%;
 	}
+	
+@media(maxi-width:960px){
+	.gale img{
+		width: 100px;
+		height: 90px;
+		alingn-items:center;
+		justify-content: center;
+		alingn-content: center;
+
+	 
+	 
+		margin: 20px;
+		padding: 5px;
+		list-style: none;
+		border: 2px solid #333;
+		top: 50px;
+		 
+	}
+	
+	.izquierdo  a{
+		font-size: 20px;
+		
+	}
+	.fecha{
+		text-align: center;
+		
+	}
+	
+	.foto img {
+		width: 70%;
+		height: 50%;
+		
+	}
+	
 	
 }
 

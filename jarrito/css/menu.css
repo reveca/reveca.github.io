@@ -35,14 +35,10 @@
 table{
 	width: 100%;
 	color: #3B3176;
-        text-align: center;
+        
         font-size: 40px;
         font-family: 'Poiret One', cursive;
-        margin: 70px;
-        padding: 30px;
-        float: center;
-        top: 0;
-	
+        
 	
 	
 }
@@ -51,19 +47,26 @@ table{
 /*este es donde esta las imagenes y un poco del contenido de la direccion*/
 .fotos{
 	width: 100%;
-	height: 100%;
-	background: white;
+	
+	
+	
 	
 }
 .fotos img{
-	
+
 	width: 40%;
 	height: 40%;
 	border: 3px solid #370000; 
+
 	 
-	 margin: 10px;
+ 	alingn-items:center;
+ 	justify-content: center;
+ 	alingn-content: center;
+	
+	 
+	 margin: 25px;
 	 padding: 9px;
-	 float:left;
+	 
 	 opacity: 0.8;
 	     
 	     filter: alpha(opacity=50);
@@ -101,9 +104,6 @@ table{
 }
 .menu a{
 	color: #333;
-	
-	
-	
 	text-decoration: none;
 	list-style: none;
 	display: flex;
@@ -114,28 +114,18 @@ table{
 }
 
 /* este es el menu pero de la segunda pagina */
-.menu2{
-	
-		
-}
+
 .menu2  a{
-	
 	font-size: 25px;
-	
 	font-family: 'Amatica SC', cursive;
 	margin: 20px;
 	color: #333;
 	
 	text-decoration: none;
 	list-style: none;
-	
 	top: 0;
-	float: right;
-	
-	justify-content: center;
-	
-	
 }
+
 
 
 

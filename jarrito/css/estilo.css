@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+
 }
 body{
 	background: #E4D6D6;
@@ -74,12 +74,7 @@ p{
 		
 		
 	} 
-	.fotos img {
-		width: 100%;
-		float-left: none;
-		display: block;
-		margin:auto;
-		
+	
 		
 	}
 	
@@ -90,7 +85,7 @@ p{
 	.hora{
 		display:block;
 		margin: auto;
-		float: left;
+	
 		
 		font-size: 20px;
 		 color: #FF6400 	
@@ -107,18 +102,7 @@ p{
 	        text-align: center;
 	        font-size: 40px;
 			
-	}
-	.fotos img{
-		display: block;
-		
-	}
-	.social{
-		width: 500px;
-		display: block;
-		margin: auto;
-		
-		
-	}	
+	
 	
 }
 

@@ -4,51 +4,82 @@
   margin: 0;
   padding: 0;
 }
+img{
+	display: block;
+	max-width: 100%
+
+}
 
 body {
-  background: white;
+  background:;
   
 }
-h4 {
-  font-size: 40px;
-  font-family: 'Amatic SC', cursive;
-  color: black;
-  margin: 40px;
-  text-align: center;
+.contenedor{
+	width: 95%;
+	margin: auto;
 }
 
-h3 {
-  font-size: 27px;
-  font-family: 'Indie Flower', cursive;
-  color: black;
-  margin: 0;
-  text-align: center;
+/*--------------------------------estilos del header--------------------------------*/
+header{
+	height: 60px;
+}
+.header .contenedor{
+	display:flex;
+	justify-content: spece-between;
+	
+}
+.icon-menu{
+	margin: 5px;
+}
+.icon-menu{
+	display:block;
+	width:40px;
+	height:40px;
+	font-size: 30px;
+	background: #FBA919;
+	color:white;
+	text-align: center;
+	line-height: 40px;
+	border-radius:5px;
+	margin-left: auto;
+	cursor: pointer;
+	
+}
+/*-------------------------------estilos del menu-------------------------------*/
+.nav{
+	position:absolute;
+	top:60px;
+	left:-100%;
+	width:100%;
+	transition: all 0.4s;
+	
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
-
-/*lineas de colores*/
-
-.linea {
-  width: 85%;
-  margin: auto;
-  padding: 0px;
-  display: block;
-  
-  outline-style: dashed;
-  vertical-align: right;
-  border: 1px solid;
-  border-color: #5B9632;
-  background-color: white;
+.menu--link{
+	display: block;
+	padding: 15px;
+	background: #FBA919;
+	text-decoration: none;
+	color:white;
+	
 }
-/*ariba*/
-.linea2 {
-  width: 100%;
-  border: 3px solid;
-  outline-style: dashed;
-  border-color: #5B9632;
-  background-color: black;
+.menu--link:hover{
+	background: white;
+	color: #FBA919;
 }
-
+.mostrar{
+	left: 0;
+}
+.select{
+	background: white;
+	color: #FBA919;
+}
+/*------------------------------* estilo de linea ariba*------------------------------*/
 .linea4{
 	
         width: 80%;
@@ -58,245 +89,259 @@ h3 {
         display: block;
         vertical-align: center;
         border: 1px solid;
-        border-color: #5B9632;
-	
-        
-	
-}
-.linea3{
-	
-        width: 80%;
-	float: auto;
-	clear: both; 
-	outline-style: dashed;
-        display: block;
-        vertical-align: center;
-        border: 1px solid;
-        border-color: #5B9632;
-	
-        
-	
+        border-color: #5B9632;	
 }
 
-h2{
-	
-	color: black;
-	font-family: 'Poiret One', cursive;
-	font-size: 25px;
-        text-align: center;
-	margin: 10px;		
-}
-/* iconos de las redes sociales*/
+/* ---------------------iconos de las redes sociales---------------------*/
 
-.links{
-	width: 100%;
-	height: 40px;
-	background: white;
-	border: 2px solid #5B9632;
-	
-	display: flex;
-	
-}
-
-.links a {
-	
-	font-size: 20px;
-	text-decoration: none;
-	margin: 7px;
-	justify-content: center;
-	align-items: flex-end;
-	padding: 6px;		
-}
-.links a .icon-googleplus{
-	color: #550800;
-	
-}
-.links a .icon-facebook-rect{
-	color: #042037;
-	
-}
-.links a .icon-github{
-	color: #3D1255 ;
-	
-}
-.links a .icon-instagram{
-	color: #123652 ;
-	
-}
-
-
-/* imagen principal*/
-.foto img {
-  width: 70%;
-  display: block;
-  margin: auto ;
-  padding: 10px 20px 10px;
-  border: 3px solid #333;
-  
-  opacity: 0.8;
-  
-  
-  
-  
-  
-}
-
-
-/*galeria de imagenes*/
-
-
-.gale img{
-	width: 500px;
-	height: 400px;
-	alingn-items:center;
-	justify-content: center;
-	alingn-content: center;
-
-	 
-	 
-	margin: 30px;
+.footer{
+	background:  #FBA919;
+	color: white;
 	padding: 10px;
-	list-style: none;
-	border: 3px solid #333;
-	top: 50px;
-		 
+	text-align: center;	
 }
-/*  gale2*/
+.footer .social[class^="icon-"]{
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	font-size:30px;
+	padding: 10px;
+	background: white;
+	border-radius: 50%;
+	width:50px;
+	height: 50px;
+	line-height: 40px;		
+}
+/* --------------------------estilos del banner--------------------------*/
+.banner{
+	margin-top: -60px;
+	position: relative;
+	z-index: -1000;
+	margin-bottom: 30px;
 
-h1{
-	width: 100px;
+}
+.banner .contenedor {
+	position: absolute;
+	top: 50%;
+	left:  40%;
+	transform: translateX(-50%) translatey(-50%);
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+.banner-text{
+	display: none;
+}
+
+
+
+/*-------------------------estilos de galeria-------------------------*/
+.info-columna{
+	background:#FBA919;
+	color: white;
+	padding: 15px;
+	margin-bottom: 30px;
+
+}
+
+h1, h2, h3, h4, h5, h6{
 	font-size: 45px;
 	font-family: 'Amatic SC', cursive;
 	color: black;
 	text-align: left;
 	margin: 50px ;
-	
-}
 
-.real p{
-	text-align: center;
-	
-  
-  display: block;
-  margin: auto;
-  color: black;
-  font-size: 20px;
-  font-family: 'Poiret One', cursive;
 }
-p {
-	
+/*------------------------estilos de proyectos------------------------*/
+.selection-titulo{
 	text-align: center;
-	
-  top: 0;
-  display: block;
-  margin: auto;
-  color: black;
-  font-size: 15px;
-  font-family: 'Poiret One', cursive;
- 
-}
+	font-size: 40px;
+	color: #FBA919
 
-.fecha{
-	text-align: center;
-	color: black;
+}
+.proyecto-columna{
+	position: relative;
+	margin: 20px;
+
+}
+.proyecto-descripcion{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	width: 60%;
+	height: 100%;
+	padding: px;
+}
+.proyecto-txt{
 	font-size: 25px;
+	margin: 5px 0;
+}
+
+/* -----------------------contactos formulario-----------------------*/
+form{
+	width: 400px;
+	margin: auto;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	margin-top: 10px;
+    font-family: 'Amatic SC', cursive;
+	
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	margin: 50px;
+	font-size: 20px;
+	margin-bottom: 20px;
 	font-family: 'Amatic SC', cursive;
 	
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: 1px solid #FBA919;
 	
 }
-.adobe img{
-	width: 90px;
-	height: 70px;
-	margin: 20px;
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%; 
+	border: 1px solid #FBA919;
+
+
+}
+#boton{
+	background: #31384A;
+	color: white;
+	padding: 20px;
+	
+}
+#boton:hover{
+	cursor: pointer;
+	
+}
+.contacto{
+	color:#FBA919;
+	font-size: 60px;
+
+}
+
+/*---------------------los media para responsive--------------------- */
+@media(min-width:480px){
+.banner-titulo{
+	font-size: 30px;
+	margin: 5px 0;
+}
+.banner-text{
+	display: block; 
+}
+.info-titulo{
+	font-size: 35px;
+}
+}
+		
+@media(min-width:768px){
+.banner-titulo{
+	font-size: 40px;
+	margin: 8px 0;
+}
+.info-titulo{
+	font-size: 40px;
+}
+.proyecto-columna{
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 35%;
+	margin-top: 0;
+}
+.proyecto-titulo{
+ font-size: 35px;
+ color: white;
+
+}
+
+
+.info-img{
+	width: 60%;
+	padding: 20px;
+	margin: 20px auto; 
+}
+
+}
+
+@media(min-width:1024px){
+
+.banner-titulo{
+	font-size: 50px;
+	margin: 10px 0;
+}
+.info-titulo{
+	font-size: 50px;
+}
+.info-img{
+    width: 50%;
+	padding: 5px;
+	margin: 5px auto; 
+}
+.info-columna{
+	margin: auto;
+	width: 60%;
 	padding: 10px;
-	
-	
+	margin-bottom: 25px;
+
+
 }
-.pantallas img{
-	width: 300px;
-	height: 200px;
-	
-	border: 2px solid #333;
-	margin: 20px;
-	padding: 10px;
-	alingn-items: flex-end;
-	
+.nav{
+	position: static;
+	width: auto;
+}
+.menu{
+ display: flex;
+}
+.menu-link{
+	background: none;
+	font-size: 45px;
+}
+.select{
+	color: white;
+	background: none;
+}
+.icon-menu{
+	display: none;
+}
+.selection-titulo{
+	font-size: 50px
+}
+.proyecto-titulo{
+ font-size: 40px;
+ color: white;
+
+}
+}
+@media(min-width:1280px){
+.contenedor{
+	width: 80%;
+
+}
+.banner-img{
+	margin: auto;
+}
+.banner-titulo{
+	font-size: 70px;
+	margin: 5px 0;
+}
 }
 
-/*los media para responsive */
-@media(max-width:480px){
-	.gale img{
-		width: 100px;
-		height: 90px;
-		alingn-items:center;
-		justify-content: center;
-		alingn-content: center;
 
-	 
-	 
-		margin: 10px;
-		padding: 5px;
-		list-style: none;
-		border: 3px solid #333;
-		top: 50px;
-		 
-	}
-	
-	
-	.links  a{
-		font-size: 10px;
-		margin: auto;
-		display: block;	
-	}
-	.fecha{
-		text-align: center;
-	
-	}
-	.links{
-		width: 40%;
-		height: 60%;
-		
-	}
-	.foto img {
-		width: 70%;
-		height: 50%;
-	}
-	
-@media(maxi-width:960px){
-	.gale img{
-		width: 100px;
-		height: 90px;
-		alingn-items:center;
-		justify-content: center;
-		alingn-content: center;
 
-	 
-	 
-		margin: 20px;
-		padding: 5px;
-		list-style: none;
-		border: 2px solid #333;
-		top: 50px;
-		 
-	}
+
 	
-	.izquierdo  a{
-		font-size: 20px;
-		
-	}
-	.fecha{
-		text-align: center;
-		
-	}
-	
-	.foto img {
-		width: 70%;
-		height: 50%;
-		
-	}
-	
-	
-}
 
 
 

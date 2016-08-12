@@ -100,18 +100,34 @@ header{
 	padding: 10px;
 	text-align: center;	
 }
-.footer .social[class^="icon-"]{
+.social{
 	display: inline-block;
 	color:white;
 	text-decoration: none;
-	font-size:30px;
+	font-size:25px;
 	padding: 10px;
 	background: white;
 	border-radius: 50%;
-	width:50px;
-	height: 50px;
 	line-height: 40px;		
 }
+.icon-googleplus{
+	text-decoration: none;
+	color:#FBA919 ;
+}
+.icon-facebook-rect{
+	text-decoration: none;
+	color:#FBA919 ;
+}
+.icon-github{
+	text-decoration: none;
+	color:#FBA919 ;
+}
+.icon-instagram{
+	text-decoration: none;
+	color:#FBA919 ;
+}
+
+
 /* --------------------------estilos del banner--------------------------*/
 .banner{
 	margin-top: -60px;
@@ -131,6 +147,11 @@ header{
 }
 .banner-text{
 	display: none;
+}
+.banner-titulo{
+	color: white;
+	font-size: 40px;
+	text-align: center;
 }
 
 
@@ -177,59 +198,6 @@ h1, h2, h3, h4, h5, h6{
 .proyecto-txt{
 	font-size: 25px;
 	margin: 5px 0;
-}
-
-/* -----------------------contactos formulario-----------------------*/
-form{
-	width: 400px;
-	margin: auto;
-	padding: 20px 20px;
-	box-sizing: border-box;
-	margin-top: 10px;
-    font-family: 'Amatic SC', cursive;
-	
-}
-
-h2 {
-	color: white;
-	text-align: center;
-	margin: 50px;
-	font-size: 20px;
-	margin-bottom: 20px;
-	font-family: 'Amatic SC', cursive;
-	
-}
-input, textarea{
-	width: 100%;
-	margin-bottom: 20px;
-	padding: 7px;
-	box-sizing: border-box;
-	font-size: 17px;
-	border: 1px solid #FBA919;
-	
-}
-textarea{
-	min-height: 100px;
-	max-height: 200px;
-	max-width: 100%; 
-	border: 1px solid #FBA919;
-
-
-}
-#boton{
-	background: #31384A;
-	color: white;
-	padding: 20px;
-	
-}
-#boton:hover{
-	cursor: pointer;
-	
-}
-.contacto{
-	color:#FBA919;
-	font-size: 60px;
-
 }
 
 /*---------------------los media para responsive--------------------- */

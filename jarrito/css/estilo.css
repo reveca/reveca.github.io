@@ -37,6 +37,7 @@ h1, h2, h3, h4, h5, h6{
 
 }
 /*-----------------------------estilo de galeria-----------------------------*/
+
 .contenedor{
 	display: inline-flex;
 	width: 90%;
@@ -78,7 +79,6 @@ h1, h2, h3, h4, h5, h6{
 
 
 
-
 /*-------------------------------estilo del menu-------------------------------*/
 .menu {
 	width: 100%;
@@ -86,8 +86,7 @@ h1, h2, h3, h4, h5, h6{
 	
 	margin: 200;
 	padding: 20px;
-	flex-wrap: wrap;
-
+	flex-wrap: wrap
 	justify-content: center;
 	text-decoration: none;
 	font-family: 'Amatica SC', cursive;
@@ -97,7 +96,7 @@ h1, h2, h3, h4, h5, h6{
 			
 }
 .menu a{
-	color: #333;
+	color:#333;
 	text-decoration: none;
 	list-style: none;
 	display: flex;
@@ -174,7 +173,255 @@ header{
 
 /*-----------------------------aqui comienza las @media-----------------------------*/
 
+@media(min-width:480px){
+.contenedor{
+	width: 100%;
+	margin: auto;
 
+
+}
+.icon-user{
+	font-size: 30px;
+	color: #222;
+	font-family: 'Playfair Display SC', cursive;
+}
+.banner-text{
+	display: block; 
+}
+.info-titulo{
+	font-size: 40px;
+	color: green;
+}
+.info-img{
+	padding: 5px;
+	margin:auto;
+	border-radius: 10px;
+	border: 1px solid  #222;
+}
+.bien{
+	 color: #C95E05;
+	 font-size: 40px;
+
+}
+.logo{
+	margin: auto;
+	width: 450px;
+	height: 300px;
+}
+.icon-picture{
+	color: #222;
+	font-size: 35px;
+}
+.contenidos{
+	width: 100%;
+	margin: auto;
+	background: rgba(0,0,0,0.1);
+	border-radius: 5px;
+
+}
+.hora{
+	color: #7B0000;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+.direccion{
+	color: #7B0000;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+
+}
+.icon-facebook-rect{
+	font-size: 30px;
+	color: #000056;
+
+
+}
+.icon-location{
+	font-size: 30px;
+	color: #C00A00;
+}
+.copy{
+	font-size: 15px;
+	color: #222;
+	font-family: 'Arial', cursive;
+	text-align: center;
+	opacity: 0.5;
+
+}
+}
+		
+@media(min-width:768px){
+.logo{
+	margin: auto;
+	width: 550px;
+	height: 400px;
+}
+.banner-titulo{
+	font-size: 40px;
+	margin: 8px 0;
+}
+.info-titulo{
+	font-size: 40px;
+}
+.proyecto-columna{
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 35%;
+	margin-top: 0;
+}
+.proyecto-titulo{
+ font-size: 35px;
+ color: white;
+}
+.bien{
+	color: #7B000C;
+	font-size: 65px;
+}
+.contenidos{
+	background: none;
+	border-radius: none;
+	margin: auto;
+}
+.hora{
+	font-size: 15px;
+	text-align: center;
+	color: #954F00;
+}
+.direccion{
+	font-size: 15px;
+	text-align: center;
+	color: #954F00;
+}
+.copy{
+	font-size: 15px;
+}
+.info-columna{
+	position: relative;
+	margin: 20px;
+}
+.info-titulo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	width: 60%;
+	height: 100%;
+	padding: 1px;
+	border-radius: 20px;
+}
+.info-txt{
+	top: 0;
+	left: 0;
+	position: relative;
+	font-size: 25px;
+	margin: 5px 0;
+	color: white;
+}
+
+}
+
+@media(min-width:1024px){
+.bien{
+	color: #430000;
+	font-size: 50px;
+}
+.info-columna{
+	margin: auto;
+	width: 50%;
+	padding: 20px;
+	margin-bottom: 10px;
+	margin: 20px 25px;
+}
+.menu a{
+	color: #111;
+	text-decoration: none;
+	list-style: none;
+	top: 0;
+	left: 0;
+
+}
+.info-img{
+	border-radius: 0px;
+ margin: auto;
+ padding: 0px;
+}
+
+.nav{
+	position: static;
+	width: auto;
+}
+.menu{
+ display: flex;
+}
+.menu-link{
+	background: none;
+	font-size: 45px;
+}
+.select{
+	color: white;
+	background: none;
+}
+.icon-menu{
+	display: none;
+}
+.selection-titulo{
+	font-size: 50px
+}
+.proyecto-titulo{
+ font-size: 40px;
+ color: white;
+
+}
+.info-titulo{
+
+	color: #345;
+}
+}
+@media(min-width:1280px){
+.menu a{
+	text-decoration: none;
+	list-style: none;
+}
+.contenedor{
+	display: inline-flex;
+	width: 90%;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content:center;
+	align- content: center;
+
+}
+.info-columna{
+	background: #E4D6D6;
+	color: white;
+	padding: 20px;
+	margin-bottom: 10px;
+	border-radius:  5px;
+	margin: auto;
+
+
+}
+.info-txt{
+	color: #550000;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;	
+}
+.info-titulo{
+	color: #222;
+	font-size: 30px;
+	text-align: center;
+}
+.info-img{
+	width: 450px;
+	height: 400px;
+	opacity: 0.9;
+	border-radius: 5px;
+}
+}
 
 
 

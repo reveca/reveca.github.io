@@ -123,8 +123,7 @@ h1, h2, h3, h4, h5, h6{
 header{
 	width: 100%;
 	height: 30px;
-	background: #801515;
-	
+	border-bottom: dashed #801515;
 	
 	top: 0;
 	left: 0;
@@ -206,23 +205,19 @@ header{
 	color: #222;
 	font-size: 35px;
 }
-.contenidos{
-	width: 100%;
-	margin: auto;
-	background: rgba(0,0,0,0.1);
-	border-radius: 5px;
-
-}
 .hora{
+
 	color: #7B0000;
 	font-size: 20px;
 	text-align: center;
+	margin: auto;
 	font-family: 'Poiret One', cursive;
 }
 .direccion{
 	color: #7B0000;
 	font-size: 20px;
 	text-align: center;
+	margin: auto;
 	font-family: 'Poiret One', cursive;
 
 }
@@ -265,11 +260,6 @@ header{
 .bien{
 	color: #7B000C;
 	font-size: 65px;
-}
-.contenidos{
-	background: none;
-	border-radius: none;
-	margin: auto;
 }
 .hora{
 	font-size: 15px;

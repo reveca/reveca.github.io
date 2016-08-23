@@ -172,7 +172,6 @@ header{
 
 
 /*-----------------------------aqui comienza las @media-----------------------------*/
-
 @media(min-width:480px){
 .contenedor{
 	width: 100%;
@@ -202,11 +201,6 @@ header{
 	 color: #C95E05;
 	 font-size: 40px;
 
-}
-.logo{
-	margin: auto;
-	width: 450px;
-	height: 300px;
 }
 .icon-picture{
 	color: #222;
@@ -251,13 +245,6 @@ header{
 
 }
 }
-		
-@media(min-width:768px){
-.logo{
-	margin: auto;
-	width: 550px;
-	height: 400px;
-}
 .banner-titulo{
 	font-size: 40px;
 	margin: 8px 0;
@@ -297,29 +284,7 @@ header{
 .copy{
 	font-size: 15px;
 }
-.info-columna{
-	position: relative;
-	margin: 20px;
-}
-.info-titulo{
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: white;
-	background: rgba(0,0,0,0.4);
-	width: 60%;
-	height: 100%;
-	padding: 1px;
-	border-radius: 20px;
-}
-.info-txt{
-	top: 0;
-	left: 0;
-	position: relative;
-	font-size: 25px;
-	margin: 5px 0;
-	color: white;
-}
+
 
 }
 
@@ -387,7 +352,7 @@ header{
 }
 .contenedor{
 	display: inline-flex;
-	width: 90%;
+	width: 95%;
 	flex-wrap: wrap;
 	margin: auto;
 	justify-content:center;
@@ -395,7 +360,6 @@ header{
 
 }
 .info-columna{
-	background: #E4D6D6;
 	color: white;
 	padding: 20px;
 	margin-bottom: 10px;
@@ -411,16 +375,16 @@ header{
 	font-size: 20px;	
 }
 .info-titulo{
-	color: #222;
+	color: #550000;
 	font-size: 30px;
 	text-align: center;
 }
 .info-img{
 	width: 450px;
 	height: 400px;
-	opacity: 0.9;
 	border-radius: 5px;
 }
+
 }
 
 

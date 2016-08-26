@@ -9,25 +9,20 @@ img{
 	max-width: 100%
 
 }
-
-body {
-  background:;
-  
-}
-.contenedor{
-	width: 95%;
+.contenido{
+	width: 80%;
 	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
+
 
 /*--------------------------------estilos del header--------------------------------*/
 header{
 	height: 60px;
 }
-.header .contenedor{
-	display:flex;
-	justify-content: spece-between;
-	
-}
+ 
 .icon-menu{
 	margin: 5px;
 }
@@ -80,18 +75,6 @@ header{
 .select{
 	background: white;
 	color: #FBA919;
-}
-/*------------------------------* estilo de linea *------------------------------*/
-.linea4{
-	
-    width: 80%;
-	float: auto;
-	clear: both; 
-	outline-style: dashed;
-    display: block;
-    vertical-align: center;
-    border: 1px solid;
-    border-color: #5B9632;	
 }
 
 /* ---------------------iconos de las redes sociales---------------------*/
@@ -159,13 +142,11 @@ header{
 
 
 /*-------------------------estilos de galeria-------------------------*/
-
 .info-columna{
-	background:#FBA919;
 	color: white;
-	padding: 10px;
+	padding: 40px;
 	margin-bottom: 30px;
-	border-radius: 30px;
+	border-radius: 10px;
 
 }
 .info-img{
@@ -175,6 +156,13 @@ header{
 	color:white;
 	font-size: 30px;
 	text-align: center;
+}
+.info-letra{
+	width: 50%;
+	margin: auto;
+	color: #FBA919;
+	text-align: center;
+
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -189,7 +177,14 @@ h1, h2, h3, h4, h5, h6{
 .selection-titulo{
 	text-align: center;
 	font-size: 40px;
-	color: #FBA919
+	color: #FBA919 ;
+
+}
+.proyectos{
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
 
 }
 .proyecto-columna{
@@ -202,7 +197,7 @@ h1, h2, h3, h4, h5, h6{
 	top: 0;
 	left: 0;
 	color: white;
-	background: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.5);
 	width: 60%;
 	height: 100%;
 	padding: 1px;
@@ -210,6 +205,26 @@ h1, h2, h3, h4, h5, h6{
 .proyecto-txt{
 	font-size: 25px;
 	margin: 5px 0;
+}
+
+.sitio{
+	width: 50%;
+	margin: auto;
+	color: #FBA919;
+	text-align: center;
+
+}
+.jarrito-img{
+	margin: auto;
+	width: 50%;
+	padding: 
+}
+.selection-titulo{
+	width: 50%;
+	margin: auto;
+	color: #FBA919;
+	text-align: center;
+
 }
 
 /*---------------------los media para responsive--------------------- */
@@ -307,18 +322,46 @@ h1, h2, h3, h4, h5, h6{
 @media(min-width:1280px){
 .contenedor{
 	width: 80%;
+	margin: auto;
 
 }
 .banner-img{
 	margin: auto;
 }
 .banner-titulo{
-	font-size: 70px;
-	margin: 5px 0;
+	font-size: 80px;
+	margin: auto;
+     text-align: center;
+     
+}
+.banner-text{
+	margin: auto;
+}
+.footer{
+	width: 87%;
+	margin: auto;
+}
+.info-columna{
+	padding: 30px;
+	background-color: rgba(0,0,0,0.3);
+	margin: 10px;
+	width: 500px;
+	
 
 }
+.info-img{
+	width: 900px;
+	width: 500px;
+	margin: auto;
 
-
+	
+}
+.info-titulo{
+	text-align: center;
+	color: black;
+	font-size: 30px;
+	
+}
 }
 
 

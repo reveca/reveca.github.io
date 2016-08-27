@@ -198,8 +198,12 @@ header{
 }
 .bien{
 	 color: #C95E05;
-	 font-size: 40px;
-
+	 font-size: 50px;
+	 text-shadow:1px 1px #393A50,
+	            2px 2px #393A50,
+	            3px 3px #393A50,
+	            4px 4px #393A50,
+	            5px 5px #393A50; 
 }
 .icon-picture{
 	color: #222;

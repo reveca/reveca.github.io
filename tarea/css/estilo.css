@@ -93,7 +93,8 @@ header{
 }
 .icon-googleplus{
 	border-radius: 50px;
-	background-color: #222;
+	box-shadow: 1px 1px #111;
+	background-color: #552900;
 	text-decoration: none;
 	color: #FBA919 ;
 }
@@ -103,7 +104,7 @@ header{
 }
 .icon-facebook-rect{
 	border-radius: 50px;
-	background-color: #222;
+	background-color: #552900;
 	text-decoration: none;
 	color: #FBA919;
 }
@@ -112,7 +113,7 @@ header{
 }
 .icon-github{
 	border-radius: 50px;
-	background-color: #222;
+	background-color: #552900;
 	text-decoration: none;
 	color: #FBA919;
 }
@@ -121,7 +122,7 @@ header{
 }
 .icon-instagram{
 	border-radius: 50px;
-	background-color: #222;
+	background-color: #552900;
 	text-decoration: none;
 	color: #FBA919;
 }
@@ -164,11 +165,11 @@ header{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	background-color: #222;
+
 }
 .info-columna{
 	color: white;
-	padding: 10px;
+	padding: 5px;
 	margin-bottom: 10px;
 	border-radius: 5px;
 
@@ -200,7 +201,6 @@ h1, h2, h3, h4, h5, h6{
 /*------------------------estilos de fotografia ------------------------*/
 .jarrito{
 	width: 80%;
-	background-color: #222;
 	margin: auto;
 }
 .selection-titulo{
@@ -211,7 +211,6 @@ h1, h2, h3, h4, h5, h6{
 }
 .proyectos{
 	width: 80%;
-	background-color: #222;
 	margin: auto;
 }
 .proyecto-columna{
@@ -349,13 +348,17 @@ h1, h2, h3, h4, h5, h6{
 .contenedor{
 	width: 80%;
 	margin: auto;
-
 } 
 .banner-img{
+	width: 80%;
 	margin: auto;
+	box-shadow: 1px 1px #393A50,
+	            2px 2px #393A50,
+	            3px 3px #393A50,
+	            4px 4px #393A50;
 }
 .banner-titulo{
-	font-size: 80px;
+	font-size: 79px;
 	margin: auto;
      text-align: center;
      
@@ -364,7 +367,7 @@ h1, h2, h3, h4, h5, h6{
 	margin: auto;
 }
 .footer{
-	width: 87%;
+	width: 80%;
 	margin: auto;
 }
 .info-columna{
@@ -377,10 +380,15 @@ h1, h2, h3, h4, h5, h6{
 }
 .info-img{
 	width: 900px;
-	width: 500px;
 	margin: auto;
-
-	
+	box-shadow: 1px 1px #393A50,
+	            2px 2px #393A50,
+	            3px 3px #393A50,
+	            4px 4px #393A50,
+	            5px 5px #393A50,
+	            6px 6px #393A50,
+	            7px 7px #393A50,
+	            8px 8px #393A50;	
 }
 .info-titulo{
 	text-align: center;

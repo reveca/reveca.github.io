@@ -9,13 +9,6 @@ img{
 	max-width: 100%
 
 }
-.contenido{
-	width: 80%;
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
 
 
 /*--------------------------------estilos del header--------------------------------*/
@@ -57,6 +50,7 @@ header{
 }
 
 .menu--link{
+	 margin:5px;
 	display: block;
 	padding: 15px;
 	background: #FBA919;
@@ -66,7 +60,7 @@ header{
 	
 }
 .menu--link:hover{
-	background: white;
+	background: #333;
 	color: #FBA919;
 }
 .mostrar{
@@ -80,10 +74,14 @@ header{
 /* ---------------------iconos de las redes sociales---------------------*/
 
 .footer{
-	background:  #FBA919;
+	margin-bottom: 40px;
+
+	background-color:  #FBA919;
 	color: white;
 	padding: 10px;
 	text-align: center;	
+	font-family: 'Amatic SC', cursive;
+
 }
 .social{
 	display: inline-block;
@@ -91,27 +89,45 @@ header{
 	text-decoration: none;
 	font-size:25px;
 	padding: 10px;
-	background: white;
-	border-radius: 50%;
 	line-height: 40px;		
 }
 .icon-googleplus{
+	border-radius: 50px;
+	background-color: #222;
 	text-decoration: none;
-	color:#FBA919 ;
+	color: #FBA919 ;
+}
+.icon-googleplus:hover{
+	background-color: white;
+
 }
 .icon-facebook-rect{
+	border-radius: 50px;
+	background-color: #222;
 	text-decoration: none;
-	color:#FBA919 ;
+	color: #FBA919;
+}
+.icon-facebook-rect:hover{
+	background-color: white;
 }
 .icon-github{
+	border-radius: 50px;
+	background-color: #222;
 	text-decoration: none;
-	color:#FBA919 ;
+	color: #FBA919;
+}
+.icon-github:hover{
+ background-color: white;
 }
 .icon-instagram{
+	border-radius: 50px;
+	background-color: #222;
 	text-decoration: none;
-	color:#FBA919 ;
+	color: #FBA919;
 }
-
+.icon-instagram:hover{
+	background-color: white;
+}
 
 /* --------------------------estilos del banner--------------------------*/
 .banner{
@@ -142,11 +158,19 @@ header{
 
 
 /*-------------------------estilos de galeria-------------------------*/
+.contenido{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #222;
+}
 .info-columna{
 	color: white;
-	padding: 40px;
-	margin-bottom: 30px;
-	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
 
 }
 .info-img{
@@ -174,6 +198,11 @@ h1, h2, h3, h4, h5, h6{
 
 }
 /*------------------------estilos de fotografia ------------------------*/
+.jarrito{
+	width: 80%;
+	background-color: #222;
+	margin: auto;
+}
 .selection-titulo{
 	text-align: center;
 	font-size: 40px;
@@ -182,10 +211,8 @@ h1, h2, h3, h4, h5, h6{
 }
 .proyectos{
 	width: 80%;
-	display: flex;
-	flex-wrap: wrap;
+	background-color: #222;
 	margin: auto;
-
 }
 .proyecto-columna{
 	position: relative;
@@ -237,7 +264,8 @@ h1, h2, h3, h4, h5, h6{
 	display: block; 
 }
 .info-titulo{
-	font-size: 35px;
+	font-size: 70px;
+	color: #FBA919;
 }
 }
 		
@@ -267,11 +295,9 @@ h1, h2, h3, h4, h5, h6{
 	padding: 20px;
 	margin: 20px auto; 
 }
-
 }
 
 @media(min-width:1024px){
-
 .banner-titulo{
 	font-size: 50px;
 	margin: 10px 0;
@@ -315,7 +341,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .proyecto-titulo{
  font-size: 40px;
- color: white;
+ color:#FBA919 ;
 
 }
 }
@@ -324,7 +350,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 80%;
 	margin: auto;
 
-}
+} 
 .banner-img{
 	margin: auto;
 }
@@ -358,9 +384,13 @@ h1, h2, h3, h4, h5, h6{
 }
 .info-titulo{
 	text-align: center;
-	color: black;
+	color: white;
 	font-size: 30px;
 	
+}
+.proyectos{
+	display: flex;
+	justify-content: center;
 }
 }
 

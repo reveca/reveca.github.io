@@ -194,6 +194,11 @@ header{
 	margin:auto;
 	border-radius: 10px;
 	border: 1px solid  #222;
+	box-shadow: 1px 1px #393A50,
+	            2px 2px #393A50,
+	            3px 3px #393A50,
+	            4px 4px #393A50,
+	            5px 5px #393A50;
 }
 .bien{
 	 color: #C95E05;
